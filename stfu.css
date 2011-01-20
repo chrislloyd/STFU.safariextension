@@ -1,0 +1,14 @@
+/*
+  STFU - Silence thoughtless & fluent users
+    Only see expert content by removing comments from popular websites.
+*/
+
+#comments, /* smh.com.au */
+.comments, /* metafilter.com */
+.comments-section, /* youtube.com */
+.commentarea, /* reddit.com */
+.disqus, /* dearcoketalk.com */
+#disqus_thread, /* disqus.com */
+{
+  display: none; !important
+}
